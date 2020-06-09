@@ -10,9 +10,12 @@
 * Both docker container and kubernetes pod logs are saved in docker_out.txt and kubernetes_out.txt respectively.
 
 
-* On CircleCI Integration task, I was getting the error on pylint command. I fixed that by removing the f from print statement in app.py file. The CI is not running completely fine.
+* On CircleCI Integration task, I was getting the error on pylint command. I fixed that by removing the f from print statement in app.py file. The CI is now running completely fine.
+
+* Following is my CircleCI Link
+ https://app.circleci.com/pipelines/github/ahsan2132/project-ml-microservice-kubernetes
 
 * Following is my public codecommit repo link
-https://github.com/ahsan2132/project-ml-microservice-kubernetes
+ https://github.com/ahsan2132/project-ml-microservice-kubernetes
 
 * I have included all files as mentioned in the project Rubric in the repo.
